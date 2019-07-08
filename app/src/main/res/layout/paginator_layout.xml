@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.appcompat.widget.LinearLayoutCompat">
+
+    <TextView
+        android:id="@+id/first_paginator"
+        android:layout_width="@dimen/search_height"
+        android:layout_height="@dimen/search_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPaginatorGreyLight"
+        android:text="@string/paginator_first"/>
+
+    <TextView
+        android:id="@+id/previous_paginator"
+        android:layout_width="@dimen/search_height"
+        android:layout_height="@dimen/search_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPaginatorGreyLight"
+        android:text="@string/paginator_previous"/>
+
+    <TextView
+        android:id="@+id/left_page"
+        android:layout_width="@dimen/search_height"
+        android:layout_height="@dimen/search_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPaginatorGreyLight"/>
+
+    <TextView
+        android:id="@+id/midle_page"
+        android:layout_width="@dimen/search_height"
+        android:layout_height="@dimen/search_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPaginatorGreyLight"/>
+
+    <TextView
+        android:id="@+id/right_page"
+        android:layout_width="@dimen/search_height"
+        android:layout_height="@dimen/search_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPaginatorGreyLight"/>
+
+    <TextView
+        android:id="@+id/next_paginator"
+        android:layout_width="@dimen/search_height"
+        android:layout_height="@dimen/search_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPaginatorGreyLight"
+        android:text="@string/paginator_next"/>
+
+    <TextView
+        android:id="@+id/last_paginator"
+        android:layout_width="@dimen/search_height"
+        android:layout_height="@dimen/search_height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPaginatorGreyLight"
+        android:text="@string/paginator_last"/>
+
+</merge>

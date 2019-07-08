@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PhotoSearchApp</string>
+    <string name="photo_base_url">https://farm%1d.staticflickr.com/%2s/%3s_%4s.jpg</string>
+    <string name="search">search</string>
+    <string name="search_error">Please enter your search in the field</string>
+    <string name="search_again_error">Please change your search or the page</string>
+    <string name="backend_error">Ops, something went wrong with flickr, please try again later</string>
+    <string name="paginator_first">&lt;&lt;</string>
+    <string name="paginator_previous">&lt;</string>
+    <string name="paginator_next">&gt;</string>
+    <string name="paginator_last">&gt;&gt;</string>
+
+    <!--Please change this to your actual working flickr API key-->
+    <string name="api_key">HERE_YOUR_FLICKR_API_KEY</string>
+</resources>
